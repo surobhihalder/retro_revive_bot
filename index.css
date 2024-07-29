@@ -1,0 +1,59 @@
+/* Apply the Raleway font to all headers and body text */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /* Set the height of the body and html elements to 100% and adjust line height */
+  body, html {
+    height: 100%;
+    line-height: 1.8;
+  }
+  
+  /* Style for the background image section */
+  .bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/headerbackground5.jpg"); /* Update the path to your background image */
+    min-height: 100%;
+  }
+  
+  /* Style for the buttons in the w3-bar */
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
+
+  .description-box {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  #d-setup-input-container {
+    margin-bottom: 20px;
+  }
+  #d-setup-textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  #d-send-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #d-image-container {
+    margin-top: 20px;
+  }
+  .loading {
+    width: 20px;
+    height: 20px;
+  }
+
+  
